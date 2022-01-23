@@ -1,0 +1,22 @@
+body{
+    background-color: blueviolet;    
+}
+a span{
+    position: absolute;
+    top: 60px;
+    left: 200px;
+    display: none;
+    animation: .5s ease-in-out;
+}
+a:hover span{
+    display: block;
+}
+
+@keyframes animate{
+    0%{
+        top:-50px;
+    }
+    100%{
+        top:-100px;
+    }
+}
